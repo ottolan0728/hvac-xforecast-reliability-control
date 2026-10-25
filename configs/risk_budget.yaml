@@ -1,0 +1,9 @@
+primary:
+  predicted_risk_budget_tau: 0.10
+  minimum_useful_retention_rho_min: 0.10
+selection:
+  ordering: ascending_predicted_failure_risk
+  tie_breaking: deterministic_label_independent
+evaluation:
+  observed_failure_computed_after_outcomes: true
+  formal_distribution_free_risk_guarantee_claimed: false
