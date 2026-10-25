@@ -1,0 +1,11 @@
+intervals:
+  construction: source_only_split_conformal
+  nominal_coverage_levels: [0.80, 0.90, 0.95]
+peak_definition:
+  threshold: building_specific_pretest_q95
+metrics:
+  point: [MAE, WAPE, RNMAE, MASE]
+  reliability: [coverage, coverage_error, WIS, CVaR95, peak_coverage]
+notes:
+  MASE_role: supporting_diagnostic
+  target_site_formal_coverage_guarantee_claimed: false
