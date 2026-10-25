@@ -1,0 +1,7 @@
+task:
+  context_hours: 168
+  horizon_hours: 24
+  primary_input: historical_cooling_load
+  future_target_as_input: false
+  realized_future_weather_as_input: false
+evaluation_unit: building_series
