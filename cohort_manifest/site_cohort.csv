@@ -1,0 +1,11 @@
+site,eligible_series,exact_site_holdout
+Bobcat,19,Yes
+Bull,95,Yes
+Cockatoo,45,Yes
+Eagle,83,Yes
+Fox,97,Yes
+Hog,87,Yes
+Moose,15,Yes
+Panther,15,Yes
+Peacock,20,Yes
+Crow,3,No
