@@ -1,0 +1,8 @@
+stress_tests:
+  random_masking:
+    fractions: [0.10, 0.30, 0.50]
+  recent_context_outage_hours: [6, 24, 72]
+  constant_bias_fraction: [-0.20, -0.10, -0.05, 0.05, 0.10, 0.20]
+  progressive_drift_fraction: [-0.10, 0.10]
+notes:
+  random_masking_and_outage_are_dose_matched: false
